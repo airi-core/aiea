@@ -1,5 +1,5 @@
 """
-# Model Pelatihan XAUUSD dengan Deep Learning
+# Model Pelatihan sanclass dengan Deep Learning
 # Implementasi Arsitektur 24 Layer untuk Prediksi OHLC
 
 import numpy as np
@@ -46,7 +46,7 @@ class XAUUSDModelTrainer:
             os.makedirs(output_path)
             
         # Parameter pelatihan dari konfigurasi JSON
-        self.batch_size = 8192
+        self.batch_size = 423600
         self.epochs = 89
         self.warmup_epochs = 21
         self.learning_rate = 1.618
