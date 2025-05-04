@@ -69,11 +69,11 @@ class XAUUSDModelTrainer:
 
         # Parameter pelatihan dari konfigurasi
         self.config = {
-            'batch_size': 4096,
+            'batch_size': 423600,
             'epochs': 150,
             'warmup_epochs': 15,
-            'learning_rate': 0.005,
-            'momentum': 0.95,
+            'learning_rate': 1.618,
+            'momentum': 0.618,
             'model_architecture': {
                 'lstm_layers': [128, 128, 64],
                 'dense_layers': [64, 32],
